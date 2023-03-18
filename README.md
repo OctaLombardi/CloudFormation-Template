@@ -1,13 +1,11 @@
-# cf-ws1 - Cloud Formation - Workshop 1
 
-## Actividad: Despliegue de una aplicación web escalable en AWS
 
-Objetivo: 
-En esta actividad, los participantes aprenderán a utilizar una serie de recursos en AWS para desplegar 
-y escalar una aplicación web. La aplicación web utilizará un archivo PHP para mostrar la dirección IP 
+## Despliegue de una aplicación web escalable en AWS
+
+Objetivo: La aplicación web utilizará un archivo PHP para mostrar la dirección IP 
 del servidor donde se encuentra alojada.
 
-## Pasos de la actividad:
+## Pasos:
 
 1) Configuración de una VPC: Los participantes crearán una VPC en AWS, configurando la subred y la tabla de ruteo correspondiente.
 
