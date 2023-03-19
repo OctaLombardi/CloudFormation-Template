@@ -25,5 +25,4 @@ del servidor donde se encuentra alojada.
 
 9) Pruebas de carga: Los participantes probarán la aplicación web con herramientas de pruebas de carga para verificar que el Auto Scaling está funcionando correctamente.
 
-Finalización: Los participantes desplegarán la aplicación web escalable que han creado en AWS y comprobarán que está funcionando correctamente.
-Nota: Es importante que los participantes comprendan que los costos asociados a los recursos de AWS utilizados en esta actividad pueden ser significativos, por lo que se recomienda utilizar cuentas gratuitas o de prueba y asegurarse de que todos los recursos se han eliminado correctamente al finalizar la actividad.
+
