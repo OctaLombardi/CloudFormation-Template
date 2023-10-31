@@ -7,22 +7,5 @@ del servidor donde se encuentra alojada.
 
 ## Pasos:
 
-1) Configuración de una VPC: Los participantes crearán una VPC en AWS, configurando la subred y la tabla de ruteo correspondiente.
-
-2) Configuración de un Load Balancer: Los participantes crearán un Load Balancer en AWS, el cual distribuirá el tráfico de la aplicación web entre las instancias EC2 que se crearán posteriormente.
-
-3) Configuración de Auto Scaling: Los participantes configurarán Auto Scaling en AWS, lo que les permitirá escalar automáticamente el número de instancias EC2 según la carga de la aplicación web.
-
-4) Configuración de S3: Los participantes crearán un bucket de S3 en AWS, donde almacenarán el archivo PHP que mostrará la dirección IP del servidor.
-
-5) Configuración de EFS: Los participantes crearán un sistema de archivos de EFS en AWS, que les permitirá compartir archivos entre las instancias EC2 que se creen posteriormente.
-
-6) Creación de un stack de CloudFormation: Los participantes crearán un stack de CloudFormation en AWS, que les permitirá automatizar la creación y configuración de los recursos que han creado hasta ahora.
-
-7) Creación de instancias EC2: Los participantes crearán instancias EC2 en AWS, las cuales utilizarán la imagen de Amazon Linux 2 y se unirán al Load Balancer creado anteriormente.
-
-8) Configuración de la aplicación web: Los participantes configurarán la aplicación web para que muestre la dirección IP del servidor donde se encuentra alojada. Para ello, deberán utilizar el archivo PHP almacenado en el bucket de S3 que han creado previamente.
-
-9) Pruebas de carga: Los participantes probarán la aplicación web con herramientas de pruebas de carga para verificar que el Auto Scaling está funcionando correctamente.
-
+En este proyecto, el primer paso consistirá en la configuración de una VPC en AWS, donde se definirá la subred y la tabla de ruteo correspondiente. Seguido de esto, se procederá a configurar un Load Balancer, el cual distribuirá el tráfico de la aplicación web entre las instancias EC2 que se crearán posteriormente. La configuración de Auto Scaling será esencial para permitir el escalado automático del número de instancias EC2 en función de la carga de la aplicación web. Además, se creará un bucket de S3 en AWS para almacenar un archivo PHP que mostrará la dirección IP del servidor. Se configurará un sistema de archivos de EFS en AWS para permitir compartir archivos entre las instancias EC2. Luego, se automatizará la creación y configuración de los recursos mediante un stack de CloudFormation en AWS. Se crearán instancias EC2 utilizando la imagen de Amazon Linux 2 y se unirán al Load Balancer. La aplicación web se ajustará para mostrar la dirección IP del servidor, utilizando el archivo PHP almacenado en el bucket de S3 creado previamente. Finalmente, se realizarán pruebas de carga para verificar el funcionamiento correcto del Auto Scaling.
 
